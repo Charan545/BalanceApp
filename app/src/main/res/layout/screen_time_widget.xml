@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@drawable/bp2"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/widgetTotalTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Screen Time"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/widgetApp1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/widgetAppIcon1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="16dp"/>
+
+        <TextView
+            android:id="@+id/widgetAppName1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App Name"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/widgetTimeSpent1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 hrs 0 mins"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <!-- Repeat the above LinearLayout for more apps -->
+</LinearLayout>
