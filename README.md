@@ -3,6 +3,9 @@ BalanceApp – Screen Time Management and Digital Well-Being
 Overview
 BalanceApp is a mobile/web application designed to help users manage their screen time effectively and improve their digital well-being. It offers features such as usage tracking, goal setting, and personalized tips.   
 ![Screenshot](Screenshot.jpg)
+
+
+
 Features
 - Real-time screen time tracking
 - Customizable usage limits and notifications
