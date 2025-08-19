@@ -12,5 +12,14 @@ Features
 
 Installation
 1. Clone the repository:
+https://github.com/Charan545/BalanceApp.git
 
+2. Navigate to the project directory:
+cd BalanceApp
+
+3. Install dependencies:
+npm install
+
+4. Run the app:
+npm start
    
